@@ -1,0 +1,25 @@
+{
+  "name": "bajcik/third_bridge-recruitment_task",
+  "description": "Third Bridge recruitement task.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Paweł Cichorowski",
+      "email": "pawel.cichorowski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bajcik\\": "src/Bajcik",
+      "ThirdBridge\\": "src/ThirdBridge"
+    }
+  },
+  "require": {
+    "symfony/yaml": "3.2.*",
+    "symfony/dom-crawler": "3.2.x-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.0.*"
+  }
+}
