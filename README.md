@@ -1,4 +1,4 @@
-## How to run the tool
+## How to run this tool
 
 Execute following command within same as this file directory:
 
